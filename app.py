@@ -14,7 +14,7 @@ def load_lottieurl(url):
 
 lottie_coder = load_lottieurl("https://lottie.host/132629c4-543a-408a-a08e-f70827f9f62c/QfvRMPOBRm.json")
 lottie_contact = load_lottieurl("https://lottie.host/0b6e4f04-a36d-4d53-8107-b77f1567d3ef/oEIMyfTOZc.json")
-image = Image.open(r"C:\test web page\image\85_YW5hbHlzaXM.jpg")
+image = Image.open("C:\test web page\image\85_YW5hbHlzaXM.jpg")
 
 st.write("##")
 st.subheader("Hey Guys:wave:")
