@@ -14,6 +14,7 @@ def load_lottieurl(url):
 
 lottie_coder = load_lottieurl("https://lottie.host/132629c4-543a-408a-a08e-f70827f9f62c/QfvRMPOBRm.json")
 lottie_contact = load_lottieurl("https://lottie.host/0b6e4f04-a36d-4d53-8107-b77f1567d3ef/oEIMyfTOZc.json")
+lottie_image = load_lottieurl("https://lottie.host/d561ae4e-b4c3-4332-9862-dff93ad9e66b/9sxd2vCqZo.json")
 
 st.write("##")
 st.subheader("Hey Guys:wave:")
@@ -70,7 +71,9 @@ if selected =="Projects":
     with st.container():
         st.header("My Projects")
         st.write("##")
-        col6= st.columns(1)
+        col5, col6= st.columns((1,2))
+        with col5:
+            st_lottie(lottie_image, height= 600, width= 400)
         with col6:
             st.subheader("Walmart data analysis project")
             st.write('''The Walmart Data Analysis Project is a comprehensive data exploration and visualization endeavor conducted with Python and the Pandas library. This project aims to extract valuable insights from the vast amounts of data collected by Walmart, one of the world's largest retail giants. By leveraging the powerful capabilities of Python's Pandas library, this analysis provides a detailed examination of various aspects of Walmart's business operations, enabling stakeholders to make informed decisions and drive strategic planning.''')
