@@ -70,7 +70,7 @@ if selected =="Projects":
     with st.container():
         st.header("My Projects")
         st.write("##")
-        col6= st.columns((1))
+        col6= st.columns(1)
         with col6:
             st.subheader("Walmart data analysis project")
             st.write('''The Walmart Data Analysis Project is a comprehensive data exploration and visualization endeavor conducted with Python and the Pandas library. This project aims to extract valuable insights from the vast amounts of data collected by Walmart, one of the world's largest retail giants. By leveraging the powerful capabilities of Python's Pandas library, this analysis provides a detailed examination of various aspects of Walmart's business operations, enabling stakeholders to make informed decisions and drive strategic planning.''')
