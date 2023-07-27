@@ -95,4 +95,4 @@ if selected =="Contacts":
     with left_col:
         st.markdown(contact_form, unsafe_allow_html= True)
     with right_col:
-        st_lottie(lottie_contact, height= 600, width= 400)
+        st_lottie(lottie_contact)
